@@ -3,9 +3,11 @@
 
 Study React!
 
+![redux-counter](src/images/redux-counter.png)
+
 ## Progress
 - Chapter 12 | 2018-08-20
-- Chapter 13 | 2018-08-20
+- Chapter 13 | 2018-08-20 ~ 21
 
 ## Quick Start
 ### To run locally:
