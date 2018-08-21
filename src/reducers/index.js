@@ -9,3 +9,29 @@ const initialState = {
     }
   ]
 };
+
+function counter(state = initialState, action) {
+  // 레퍼런스 생성
+  const { counters } = state;
+
+  switch (action.type) {
+    case type.CREATE:
+      return {
+        counters: [
+          ...counters,
+          {
+            color: action.color,
+            number: 0
+          }
+        ]
+      };
+    case type.REMOVE:
+      return {
+        counters: counters.slice(0, counters.length - 1)
+      };
+    default:
+      return state;
+  }
+}
+
+export default counter;
