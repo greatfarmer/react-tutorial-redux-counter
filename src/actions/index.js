@@ -15,15 +15,18 @@ export const remove = () => ({
 });
 
 export const increment = () => ({
-  type: types.INCREMENT
+  type: types.INCREMENT,
+  index
 });
 
 export const decrement = () => ({
-  type: types.DECREMENT
+  type: types.DECREMENT,
+  index
 });
 
 // 다른 액션 생성자들과 달리 파라미터를 갖고 있습니다.
 export const setColor = (color) => ({
   type: types.SET_COLOR,
+  index,
   color
 });
