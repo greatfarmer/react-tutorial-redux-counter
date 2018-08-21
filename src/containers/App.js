@@ -4,7 +4,7 @@ import CounterListContainer from './CounterListContainer';
 import getRandomColor from '../lib/getRandomColor';
 
 import { connect } from 'react-redux';
-import * as actions from '../lib/getRandomColor';
+import * as actions from '../actions';
 
 class App extends Component {
   render() {

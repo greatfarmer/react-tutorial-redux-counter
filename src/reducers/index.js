@@ -15,7 +15,7 @@ function counter(state = initialState, action) {
   const { counters } = state;
 
   switch (action.type) {
-    case type.CREATE:
+    case types.CREATE:
       return {
         counters: [
           ...counters,
@@ -25,7 +25,7 @@ function counter(state = initialState, action) {
           }
         ]
       };
-    case type.REMOVE:
+    case types.REMOVE:
       return {
         counters: counters.slice(0, counters.length - 1)
       };
