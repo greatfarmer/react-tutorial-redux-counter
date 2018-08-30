@@ -1,4 +1,4 @@
-# React-tutorial-redux-counter
+# react-tutorial-redux-counter
 [![author](https://img.shields.io/badge/author-greatfarmer-f28da5.svg)](https://github.com/greatfarmer)
 
 Study React!
